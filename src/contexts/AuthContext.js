@@ -38,8 +38,6 @@ const AuthContextProvider = ({ children }) => {
       displayName: username,
     });
 
-    console.log(user);
-
     setCurrentUser({
       ...user,
     });

@@ -36,7 +36,6 @@ export default function Result() {
 
   const userScore = calculateScore();
 
-  console.log(userScore);
   return (
     <>
       {loading && <p>Loading...</p>}
